@@ -4,12 +4,15 @@
     margin: 0;
     border: 0;
 }
+
 *, *:after, *:before {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 :focus, :active { outline: none;}
+
 a:focus, a:active {outline: none;}
 
 nav, footer, header,aside {display: block;}
@@ -24,13 +27,19 @@ html, body {
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
+
 input, button, textarea {font-family: inherit;}
 
 input::-ms-clear {display: none;}
+
 button {cursor: pointer;}
+
 button::-moz-focus-inner {padding: 0; border: 0;}
+
 a, a:visited {text-decoration: none;}
+
 ul li {list-style: none;}
+
 img {vertical-align: top;}
 
 /* Свои стили */
@@ -94,17 +103,18 @@ header .container {
     display: inline-block;
     float: right;
     text-align: center;
-
 }
 
 h1 {
     font-size: 80px;
     font-style:italic;
 }
+
 .title h6 {
     font-size: 20px;
     margin: 10px auto;
 }
+
 /* Main part */
 
 nav {
@@ -114,9 +124,11 @@ nav {
     margin: 10px;
     font-size: 18px;
 }
+
 nav li {
     margin: 30px auto;
 }
+
 .main a {
     text-decoration: none;
     text-align: center;
@@ -128,10 +140,12 @@ nav li {
     border-radius: 0 17px 17px 0;
     border: 1px solid rgba(254, 219, 174, 0.745);
 }
+
 .main a:hover {
     padding: 5px 20px;
     color: rgb(143, 252, 96);
     background-color: rgba(19, 87, 7, 0.673);
+    transition: 0.2s ease-in-out;
 }
 
 .content {
@@ -142,29 +156,29 @@ nav li {
     padding-top: 20px;
     margin: -10px 5px;
 }
+
 .sidemenu {
     background-image: url(../img/button.png);
     width: 23%;
     float: left;
     border: 1px solid #000;
     border-radius: 0 170px 17px 0;
-    /* background:rgba(32, 117, 69, 0.404); */
 }
 
 /* Текстовый блок */
-.subtitle {
-    /* border: 1px solid #000; */
-}
+
 .subtitlehead {
     width: fit-content;
     margin: 0 auto;
     color: rgb(1, 98, 29);
 }
+
 .subtitlehead h2{
     display: inline;
     font-size: 25px;
     font-family: 'Merriweather';
 }
+
 .subtitlehead img {
     width: 25px;
     display: inline-block;
@@ -182,6 +196,7 @@ nav li {
     padding: 15px 15px 5px 5px;
     border-top: 2px dotted cadetblue;
 }
+
 .story img {
     float: left;
     width: 20%;
@@ -189,26 +204,32 @@ nav li {
     padding: 2px;
     border: 1px solid cadetblue;
 }
+
 .story {
     font-size: 18px;
     text-align: justify;
     line-height: 16pt;
 }
+
 .story h3 {
     margin-bottom: 10px;
     font-weight: 700;
     color: rgb(106, 19, 19);
 }
+
 .story p {
     margin: 10px 5px;
     text-indent: 25px;
 }
+
 .story ul {
     display: grid;
 }
+
 .story li {
     list-style:inside;
 }
+
 .footer {
     background-color: rgba(95, 158, 160, 0.253);
     text-align: center;
@@ -217,5 +238,4 @@ nav li {
     display: inline-block;
     border-radius: 100px 100px  0 0;
     width: 100%
-
 }
