@@ -1,0 +1,221 @@
+/* Обнуляющий стиль */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*, *:after, *:before {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus, :active { outline: none;}
+a:focus, a:active {outline: none;}
+
+nav, footer, header,aside {display: block;}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input, button, textarea {font-family: inherit;}
+
+input::-ms-clear {display: none;}
+button {cursor: pointer;}
+button::-moz-focus-inner {padding: 0; border: 0;}
+a, a:visited {text-decoration: none;}
+ul li {list-style: none;}
+img {vertical-align: top;}
+
+/* Свои стили */
+html {
+    background-image: url(/img/forest.jpg);
+    background-color: rgba(250, 235, 215, 0.803);
+    background-blend-mode:screen;
+    background-size: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 2px auto;
+}
+
+header .container {
+    height: 240px;
+}
+
+.logo {
+    display: inline;
+    float: left;
+    width: 25%;
+}
+
+.logoimage {
+    width: 300px;
+    margin: 0 auto 15px;
+}
+
+.topmenu {
+    float: right;
+    width: 75%;
+    margin: 5px auto 20px;
+}
+
+.topmenu ul {
+    float: right;
+}
+
+.topmenu li {
+    display: inline-block;
+    margin: 5px auto;
+    opacity: .8;
+}
+
+.topmenu img {
+    width: 65%;
+    opacity: .85;
+}
+
+.topmenu img:hover {
+    opacity: 1;
+}
+
+.title {
+    margin: 15px auto 35px;
+    font-family: 'Merriweather';
+    width: 75%;
+    color: brown;
+    display: inline-block;
+    float: right;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 80px;
+    font-style:italic;
+}
+.title h6 {
+    font-size: 20px;
+    margin: 10px auto;
+}
+/* Main part */
+
+nav {
+    float: left;
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+    font-size: 18px;
+}
+nav li {
+    margin: 30px auto;
+}
+.main a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(254, 217, 168);
+    background-color: rgba(87, 40, 7, 0.889);
+    padding: 5px 10px;
+    text-shadow: 2px 2px 2px rgb(5, 77, 2);
+    border-radius: 0 17px 17px 0;
+    border: 1px solid rgba(254, 219, 174, 0.745);
+}
+.main a:hover {
+    padding: 5px 20px;
+    color: rgb(143, 252, 96);
+    background-color: rgba(19, 87, 7, 0.673);
+}
+
+.content {
+    float: right;
+    width: 76%;
+    border-top: 20px groove rgba(88, 147, 187, 0.784);
+    /* border-bottom: 10px solid rgba(88, 147, 187, 0.784); */
+    padding-top: 20px;
+    margin: -10px 5px;
+}
+.sidemenu {
+    background-image: url(/img/button.png);
+    width: 23%;
+    float: left;
+    border: 1px solid #000;
+    border-radius: 0 170px 17px 0;
+    /* background:rgba(32, 117, 69, 0.404); */
+}
+
+/* Текстовый блок */
+.subtitle {
+    /* border: 1px solid #000; */
+}
+.subtitlehead {
+    width: fit-content;
+    margin: 0 auto;
+    color: rgb(1, 98, 29);
+}
+.subtitlehead h2{
+    display: inline;
+    font-size: 25px;
+    font-family: 'Merriweather';
+}
+.subtitlehead img {
+    width: 25px;
+    display: inline-block;
+    margin:auto 20px;
+}
+
+.news {
+    margin: 20px 10px 10px 10px;
+    border-bottom: 1px solid cadetblue;
+}
+
+.date {
+    font-size: 15px;
+    font-weight: 900;
+    padding: 15px 15px 5px 5px;
+    border-top: 2px dotted cadetblue;
+}
+.story img {
+    float: left;
+    width: 20%;
+    margin: 0 20px 10px 0;
+    padding: 2px;
+    border: 1px solid cadetblue;
+}
+.story {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 16pt;
+}
+.story h3 {
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: rgb(106, 19, 19);
+}
+.story p {
+    margin: 10px 5px;
+    text-indent: 25px;
+}
+.story ul {
+    display: grid;
+}
+.story li {
+    list-style:inside;
+}
+.footer {
+    background-color: rgba(95, 158, 160, 0.253);
+    text-align: center;
+    margin: 20px 0 0 0;
+    padding-top: 5px;
+    display: inline-block;
+    border-radius: 100px 100px  0 0;
+    width: 100%
+
+}
