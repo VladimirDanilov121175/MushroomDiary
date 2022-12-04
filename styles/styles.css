@@ -35,7 +35,7 @@ img {vertical-align: top;}
 
 /* Свои стили */
 html {
-    background-image: url(./img/forest.jpg);
+    background-image: url(img/forest.JPG);
     background-color: rgba(250, 235, 215, 0.803);
     background-blend-mode:screen;
     background-size: 100%;
@@ -143,7 +143,7 @@ nav li {
     margin: -10px 5px;
 }
 .sidemenu {
-    background-image: url(./img/button.png);
+    background-image: url(img/button.png);
     width: 23%;
     float: left;
     border: 1px solid #000;
